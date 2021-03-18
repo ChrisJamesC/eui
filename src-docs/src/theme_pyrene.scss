@@ -1,0 +1,12 @@
+@import 'pyrene-theme/pyrene-theme';
+@import '../../src/components/index';
+
+@import './components/guide_components';
+@import './services/playground/index';
+@import './views/suggest/global_filter_group';
+
+// Elastic charts
+@import '~@elastic/charts/dist/theme';
+@import '../../src/themes/charts/theme';
+
+
