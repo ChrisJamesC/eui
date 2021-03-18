@@ -3,6 +3,7 @@ import darkColors from '!!sass-vars-to-js-loader!../../../../src/themes/eui/eui_
 import lightAmsterdamColors from '!!sass-vars-to-js-loader!../../../../src/themes/eui-amsterdam/eui_amsterdam_colors_light.scss';
 import darkAmsterdamColors from '!!sass-vars-to-js-loader!../../../../src/themes/eui-amsterdam/eui_amsterdam_colors_dark.scss';
 import lightPyreneColors from '!!sass-vars-to-js-loader!../../pyrene-theme/pyrene-colors-light.scss';
+import darkPyreneColors from '!!sass-vars-to-js-loader!../../pyrene-theme/pyrene-colors-dark.scss';
 
 export const getSassVars = (theme) => {
   let palette;
@@ -12,6 +13,9 @@ export const getSassVars = (theme) => {
       break;
     case 'amsterdam-light':
       palette = { ...lightColors, ...lightAmsterdamColors };
+      break;
+    case 'pyrene-dark':
+      palette = { ...darkColors, ...darkPyreneColors };
       break;
     case 'pyrene-light':
       palette = { ...lightColors, ...lightPyreneColors };

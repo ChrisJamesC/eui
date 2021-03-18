@@ -43,4 +43,8 @@ export const EUI_THEMES: EUI_THEME[] = [
     text: 'Pyrene Light',
     value: 'pyrene-light',
   },
+  {
+    text: 'Pyrene Dark',
+    value: 'pyrene-dark',
+  },
 ];

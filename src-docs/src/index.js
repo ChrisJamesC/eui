@@ -15,7 +15,8 @@ import themeLight from './theme_light.scss';
 import themeDark from './theme_dark.scss';
 import themeAmsterdamLight from './theme_amsterdam_light.scss';
 import themeAmsterdamDark from './theme_amsterdam_dark.scss';
-import themePyrene from './theme_pyrene.scss';
+import themePyreneLight from './theme_pyrene_light.scss';
+import themePyreneDark from './theme_pyrene_dark.scss';
 import { ThemeProvider } from './components/with_theme/theme_context';
 import ScrollToHash from './components/scroll_to_hash';
 import { LinkWrapper } from './views/link_wrapper';
@@ -24,7 +25,8 @@ registerTheme('light', [themeLight]);
 registerTheme('dark', [themeDark]);
 registerTheme('amsterdam-light', [themeAmsterdamLight]);
 registerTheme('amsterdam-dark', [themeAmsterdamDark]);
-registerTheme('pyrene-light', [themePyrene]);
+registerTheme('pyrene-light', [themePyreneLight]);
+registerTheme('pyrene-dark', [themePyreneDark]);
 
 // Set up app
 

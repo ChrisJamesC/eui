@@ -1,0 +1,22 @@
+@import '../../../src/themes/eui/eui_colors_dark.scss';
+
+$euiColorPrimary: #05f;
+$euiColorAccent: #0bdbb9;
+$euiColorSuccess: #00d66b; 
+$euiColorWarning: #ff9500; 
+$euiColorDanger: #e61728;
+
+// Grays are the same
+
+// Backgrounds
+$euiColorHighlight: #2E2D25;
+
+// Contrasty text variants
+$euiColorPrimaryText: makeHighContrastColor($euiColorPrimary);
+$euiColorSecondaryText: makeHighContrastColor($euiColorSecondary);
+$euiColorAccentText: makeHighContrastColor($euiColorAccent);
+$euiColorWarningText: makeHighContrastColor($euiColorWarning);
+$euiColorDangerText: makeHighContrastColor($euiColorDanger);
+$euiColorDisabledText: makeDisabledContrastColor($euiColorDisabled);
+$euiColorSuccessText: $euiColorSecondaryText;
+$euiLinkColor: $euiColorPrimaryText;
