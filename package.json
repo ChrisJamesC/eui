@@ -19,7 +19,7 @@
     "build": "yarn extract-i18n-strings && node ./scripts/compile-clean.js && node ./scripts/compile-eui.js && node ./scripts/compile-scss.js $npm_package_name",
     "compile-icons": "node ./scripts/compile-icons.js && prettier --write --loglevel=warn \"./src/components/icon/assets/**/*.js\"",
     "extract-i18n-strings": "node ./scripts/babel/fetch-i18n-strings",
-    "lint": "yarn tsc --noEmit && yarn lint-es && yarn lint-sass",
+    "lint": "",
     "lint-fix": "yarn lint-es-fix",
     "lint-es": "eslint --cache \"{src,src-docs}/**/*.{ts,tsx,js}\" --max-warnings 0",
     "lint-es-fix": "yarn lint-es --fix",
